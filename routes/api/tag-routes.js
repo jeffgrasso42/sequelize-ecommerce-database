@@ -35,6 +35,7 @@ router.post('/', async (req, res) => {
   }
 });
 
+// PUT api/tags - update a tag by id
 router.put('/:id', async (req, res) => {
   try {
     // update a tag's name by its `id` value
@@ -53,6 +54,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
+// DELETE api/tags - delete a tag by id
 router.delete('/:id', async (req, res) => {
   try {
     // delete on tag by its `id` value
